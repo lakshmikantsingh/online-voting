@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage voting system</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div id="headersection">
+    <h1>Collage Voting System</h1>
+   </div>
+   <hr>
+   <div id="bodysection">
+   <form action="api/sign.php" method="post">
+<h2>Login</h2>
+<input type="number" name="mobile" placeholder="enter mobile"><br><br>
+<input type="password" name="pass" placeholder="enter password"><br><br>
+<select id="dropbox" name="role"><br><br>
+    <option value="1">voter</option>  
+    <option value="2">group</option>  
+    </select><br><br>
+    <button id="loginbox" type="submit">Login</button><br><br>
+    New Users ?<a href="routes/registration.html">Register here</a>
+</form>
+   </div>
+</body>
+</html>

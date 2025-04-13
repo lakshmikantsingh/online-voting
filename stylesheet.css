@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: #f1f6fc;
+    background-image: url('C:\Users\laksh\OneDrive\Desktop'); 
+}
+#headersection{
+    padding: 5px;
+}
+
+#headersection{
+    h1 {  
+        font-family: 'Brush Script MT', cursive;  
+    }  
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#dropbox{
+    padding: 9px;
+    border-radius: 5px;  
+    width: 15%; 
+    border-color: black;         
+}
+
+#loginbox{
+    padding: 8px;
+    border-radius: 8px;   
+    background-color: blue; 
+    color: aliceblue;
+    border-color: aqua;
+}
